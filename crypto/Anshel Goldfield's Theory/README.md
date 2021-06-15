@@ -14,7 +14,7 @@ Asymetric encryptionknowledge and Anshel Anshel Goldfield key exchange knowledge
 - [cipher.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Emperor's%20Cipher/cipher.txt)
 
 ```
-Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math, so they decided to use a Rubik's Cube instead to do the crypto. This is not the best way to secure it, but I feel its a high chance of getting thier shared key.
+Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math, so they decided to use a Rubik's Cube instead to do the crypto. This is not the best way to secure it, but I think we can get their private key.
 
 Mr. A public key: [B' U', F B F, R' D, B D'] Mr. G public key: [R D L', D U' B, U F', L' F]
 
