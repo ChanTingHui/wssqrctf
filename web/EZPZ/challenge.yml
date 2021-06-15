@@ -1,0 +1,28 @@
+name: "EZPZ"
+author: "Ting Hui"
+category: Web
+
+description: |
+  EZPZ! NO KICK
+
+value: 200
+type: standard
+
+
+flags:
+  - wssqrctf{1snT_1t_3@sY}
+
+tags:
+  - web
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30203
