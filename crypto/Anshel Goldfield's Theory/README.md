@@ -44,7 +44,7 @@ Mr. G sends: [U F' R D L' B' U' L D' R' F U', U F' R D L' F B F L D' R' F U', U 
 
 Use the same idea to get B inverse = U F' R D L' and B = L D' R' F U'
 
-SHARED KEY IS A_Inv.B_Inv.A.B = B D' R' D U F' R D L' D' R D B' L D' R' F U'
+SHARED KEY IS A_Inv .B_Inv .A.B = B D' R' D U F' R D L' D' R D B' L D' R' F U'
 
 
 
