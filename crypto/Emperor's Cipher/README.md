@@ -13,7 +13,7 @@ Github
 
 ## Sources
 
-- [cipher.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Emperor's%20Cipher/cipher.txt)
+- [cipher.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Emperor's%20Cipher/bin/cipher.txt)
 
 ```
 An ancient emperor have passed down an ancient flag after his death. The flag is a6645q7t{ce8_jvoff_127_3ijj}.
