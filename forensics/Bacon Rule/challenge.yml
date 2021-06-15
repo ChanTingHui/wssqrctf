@@ -1,0 +1,17 @@
+name: "Lost Password"
+author: "Xiao Zhi"
+category: forensics
+
+description: A user's computer have been infected with the trickbot infection. Help to find his password. For this flag, embed the victim in flag syntex 
+(e.g. wssqrctf{I_am_password}).
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{gh3ntf@st}
+
+tags:
+  - foreniscs
+
+state: visible

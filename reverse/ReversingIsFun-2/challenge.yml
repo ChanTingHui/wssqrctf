@@ -1,0 +1,22 @@
+name: "Rerversing is Fun - 2"
+author: "Ting Hui"
+category: Reverse
+
+description: Another of Singapore Power Station confidential application has been released online. However, this time it requires a combination of 5 passwords to get the final passcode into the application.
+I know u can do this. I believe in you.
+
+  Hint: 
+  - LabVIEW community edition will be required.
+  - Find a way to temper the number of tries to ignore the one time try.
+  - Phase 4 requires the inspection of the .tdms file
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{g0t_fL@g_By_R3v3r$ing_th3_wh0L3_$ructur3_the_r1de_n3v3r_3nd5}
+
+tags:
+  - Reversing
+
+state: visible

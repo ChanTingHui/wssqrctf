@@ -1,0 +1,15 @@
+name: "Duck's hashes"
+author: "Xiao Zhi"
+category: forensics
+
+description: Noooooooooooo. Two of our employees have been hacked. Can you identify the malware? Embed the malware in flag syntex e.g. (wssqrctf{ILOVEYOU})
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{Qbot}
+tags:
+  - foreniscs
+
+state: visible

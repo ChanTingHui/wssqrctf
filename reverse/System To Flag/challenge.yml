@@ -1,0 +1,32 @@
+name: "System To Flag"
+author: "Ting Hui"
+
+category: Reversing
+
+description: |
+  Find your way into the system and get the flag!
+
+
+value: 250
+type: standard
+
+flags:
+  - wssqrctf{bUff3r_y0uR_w@y}
+
+tags:
+  - reversing
+ 
+files:
+  - "pwn/System To Flag/bin/system-to-flag"
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30041

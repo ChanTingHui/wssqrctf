@@ -1,0 +1,28 @@
+name: "Jail Break"
+author: "Ting Hui"
+category: misc
+
+description: |
+  Someone is in jail. Break him out of Jail.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{sT3v3_J0b$_fr0m_@ppl3}
+
+tags:
+  - miscellaneous
+  - jail
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30407

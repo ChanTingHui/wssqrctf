@@ -1,0 +1,17 @@
+name: "WANTED!!!"
+author: "Ting Hui"
+category: OSINT
+
+description: Lieutenant John, Mr Elon is wanted for drug traffic. We were told by an informant that he is hiding drugs on a particular plane.
+Please get back to me with the flight number. His twitter account is the only information we have.
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{WS-7182}
+
+tags:
+  - osint
+
+state: visible

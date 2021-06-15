@@ -1,0 +1,15 @@
+name: "Tier 1 Followers"
+author: "Xiao Zhi"
+category: forensics
+
+description: This flag can only be given to my favorite and devoted fan boys <3. Will you be able to read it for me ?
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{rll7_b1g_dog3_f4n}
+tags:
+  - foreniscs
+
+state: visible

@@ -1,0 +1,19 @@
+name: "Emperor's Cipher"
+author: "Xiaozhi"
+category: Crypto
+
+description: An ancient emperor have passed down an ancient flag after his death. The flag is a6645q7t{ce8_jvoff_127_3ijj}.
+Help us decrypt this code!
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{y0u_5ha11_not_p455}
+  
+
+
+tags:
+  - Crypto
+
+state: visible

@@ -1,0 +1,21 @@
+name: "Rerversing is Fun - 1"
+author: "Ting Hui"
+category: Reverse
+
+description: The Singapore Power Station confidential application has been released online. However, a passcode is required to get access to full control of the Power Station.
+Please help us to figure out the passcode to get admin access.
+
+Note: NO MODIFYING OF THE FILE AS IT WILL HAVE ERROR! PLEASE RUN AND STOP THE PROGRAM ONLY.
+
+  Hint: LabVIEW community edition will be required.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{x0r_F1@g_w1n}
+
+tags:
+  - Reversing
+
+state: visible

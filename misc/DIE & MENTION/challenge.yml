@@ -1,0 +1,20 @@
+
+name: "DIE & MENSION"
+author: "Ting Hui"
+category: Misc
+
+description: Can you find the flag??? 
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{d1m3nsion_n33ds_chang3s}
+
+
+tags:
+  - misc
+  - hex
+  - troubleshoots
+
+state: visible
