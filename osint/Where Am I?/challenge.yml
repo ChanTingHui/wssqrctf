@@ -1,1 +1,17 @@
+name: "Where Am I"
+author: "Xiaozhi"
+category: OSINT
 
+description: hbxxlvjqsuhxlreg is destroying the world with a virus.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{@n@ccid3nt+m!sT@k3}
+
+
+tags:
+  - osint
+
+state: visible
