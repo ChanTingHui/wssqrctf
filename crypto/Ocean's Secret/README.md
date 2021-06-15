@@ -14,7 +14,7 @@ Github , John the Ripper and Kali knowledge
 
 ## Sources
 
-- [strong_password.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Ocean's%20Secret/strong_password.zip)
+- [strong_password.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Ocean's%20Secret/bin/strong_password.zip)
 
 
 ```
