@@ -13,7 +13,7 @@ Knowledge of OSINT knowledge online.
 
 ## Sources
 
-- https://twitter.com/ImElonMask1
+- [location.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/osint/Where%20Am%20I%3F/bin/location.zip)
 
 
 ```
