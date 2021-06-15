@@ -15,7 +15,7 @@ Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Sources
 
-- [duckduckgoose.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Duck's%20morning%20drink/bin/duckduckgoose.txt)
+- [duckduckgoose.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Duck's%20hashes/bin/duckduckgoose.txt)
 
 ```
 Noooooooooooo. Two of our employees have been hacked. Can you identify the malware? Embed the malware in flag syntex e.g. (wssqrctf{ILOVEYOU})
