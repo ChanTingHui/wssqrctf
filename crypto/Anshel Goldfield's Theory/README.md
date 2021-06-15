@@ -14,11 +14,6 @@ Asymetric encryptionknowledge and Anshel Anshel Goldfield key exchange knowledge
 - [keys.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Anshel%20Goldfield's%20Theory/bin/keys.txt)
 ```
 Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math, so they decided to use a Rubik's Cube instead to do the crypto. This is not the best way to secure it, but I think we can get their private key.
-
-Mr. A public key: [B' U', F B F, R' D, B D'] Mr. G public key: [R D L', D U' B, U F', L' F]
-
-Mr. A sends: [B D' R' D R D L' D' R D B', B D' R' D D U' B D' R D B', B D' R' D U F' D' R D B', B D' R' D L' F D' R D B'] 
-Mr. G sends: [U F' R D L' B' U' L D' R' F U', U F' R D L' F B F L D' R' F U', U F' R D L' R' D L D' R' F U', U F' R D L' B D' L D' R' F U']
 ```
 
 ## Exploit
