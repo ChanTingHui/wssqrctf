@@ -2,14 +2,14 @@ name: "Anshel Goldfield's Theory"
 author: "Xiaozhi"
 category: Crypto
 
-description: An ancient emperor have passed down an ancient flag after his death. The flag is a6645q7t{ce8_jvoff_127_3ijj}.
-Help us decrypt this code!
+description: Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math,
+so they decided to use a Rubik's Cube instead to do the crypto. This is not the best way to secure it, but I think we can get their private key.
 
-value: 200
+value: 500
 type: standard
 
 flags:
-  - wssqrctf{y0u_5ha11_not_p455}
+  - wssqrctf{B D' R' D U F' R D L' D' R D B' L D' R' F U'}
   
 
 
