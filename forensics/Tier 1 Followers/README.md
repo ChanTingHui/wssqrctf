@@ -9,7 +9,7 @@ Hex editor and hex analyser
 
 ## Sources
 
-- [onlyfans.jpeg](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Tier%201%20Followers/bin/onlyfans.jpeg)
+- [onlyfans.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Tier%201%20Followers/bin/onlyfans.zip)
 
 ```
 This flag can only be given to my favorite and devoted fan boys <3. Will you be able to read it for me ?
