@@ -2,8 +2,8 @@ name: "Anshel Goldfield's Theory"
 author: "Xiaozhi"
 category: Crypto
 
-description: Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math,
-so they decided to use a Rubik's Cube instead to do the crypto. This is not the best way to secure it, but I think we can get their private key.
+description: Miss Ashley and Mr Gordon were trying to exchange some asymmetric keys to get a shared key. They aren't very good at math, so they decided to use a Rubik's Cube instead to do the crypto. 
+This is not the best way to secure it, but I think we can get their shared key.
 
 value: 500
 type: standard
