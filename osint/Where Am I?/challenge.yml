@@ -2,13 +2,14 @@ name: "Where Am I"
 author: "Xiaozhi"
 category: OSINT
 
-description: hbxxlvjqsuhxlreg is destroying the world with a virus.
+description: Oh No! I'm standing in front of this Verizon central office building but I think I'm lost. I'm trying to connect to the wifi but I don't know the password to the networks. 
+Whats the CLLI code of the building I am at ? Once you figure out the CLLI code, make sure to wrap it in wssqrCTF{}.
 
-value: 350
+value: 500
 type: standard
 
 flags:
-  - wssqrctf{@n@ccid3nt+m!sT@k3}
+  - wssqrctf{MTARMDMARS1}
 
 
 tags:
