@@ -1,0 +1,17 @@
+name: "PZY's Root flag"
+author: "Xiaozhi and Ting Hui"
+category: PZY VM
+
+description: Obtain the root flag in PZY VM and embed it in the flax syntex.
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{d1f258a6ec26dffbbdec79f68890a5e8}
+  
+
+tags:
+  - PZY VM
+
+state: visible
