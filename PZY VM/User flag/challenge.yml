@@ -1,0 +1,17 @@
+name: "PZY's User flag"
+author: "Xiaozhi and Ting Hui"
+category: PZY VM
+
+description: Obtain the user flag in PZY VM and embed it in the flax syntex.
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{d68815f2afbc48a2a717de2f35478600}
+  
+
+tags:
+  - PZY VM
+
+state: visible
