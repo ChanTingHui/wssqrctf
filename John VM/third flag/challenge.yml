@@ -1,0 +1,19 @@
+
+name: "John's reader flag"
+author: "Jerick"
+category: John VM
+
+description: Obtain the user flag in John VM and embed it in the flax syntex.
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{its_A_ph0t0_ph1ni5h} 
+  
+
+
+tags:
+  - John VM
+
+state: visible
