@@ -1,4 +1,4 @@
-# PZY VM
+# PZY VM (Hard Difficulty)
 
 This directory consists of challenges related to `PZY VM`.
 
