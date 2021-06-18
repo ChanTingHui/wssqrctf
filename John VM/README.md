@@ -1,4 +1,4 @@
-# John VM
+# John VM (Medium Difficulty)
 
 This directory consists of challenges related to `John VM`.
 
