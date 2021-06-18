@@ -1,4 +1,4 @@
-# Willywonker VM
+# Willywonker VM (Medium Difficulty)
 
 This directory consists of challenges related to `Willywonker VM`.
 
