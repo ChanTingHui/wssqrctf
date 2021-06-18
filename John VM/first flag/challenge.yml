@@ -1,0 +1,20 @@
+name: "John's slkr3t flag"
+author: "Jerick"
+category: SnoopyVM
+
+description: Obtain the s1kr3t flag in John VM and embed it in the flag syntex.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{n0_one_br3aches_teh_f0rt} 
+  
+
+
+tags:
+  -  VM
+
+state: visible
+
+ 
