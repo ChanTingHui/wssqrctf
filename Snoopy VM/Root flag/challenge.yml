@@ -1,0 +1,18 @@
+name: "Snoopy's Root flag"
+author: "Jerick"
+category: SnoopyVM
+
+description: Obtain the root flag in Snoopy VM and embed it in the flax syntex.
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{63a9f0ea7bb98050796b649e85481845}
+  
+
+
+tags:
+  - Snoopy VM
+
+state: visible
