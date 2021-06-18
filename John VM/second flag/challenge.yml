@@ -1,0 +1,18 @@
+name: "John's craven flag"
+author: "Jerick"
+category: John VM
+
+description: Obtain the craven flag in John VM and embed it in the flag syntex.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{w0uld_u_lik3_som3_b33r_with_ur_r3d_PiLL} 
+  
+
+
+tags:
+  - John VM
+
+state: visible
