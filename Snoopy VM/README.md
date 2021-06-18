@@ -1,5 +1,8 @@
-# Snoopy VM Walkthrough (Easy Difficulty) 
+# Snoopy VM (Easy Difficulty) 
 
+Author : Jerick 
+
+# Walkthrough
 Step 1: nmap -p (ip of infected) -A 
 
 Step 2: Notice that there is ssh and webserver available. Visit the webpage of the ip address. 
