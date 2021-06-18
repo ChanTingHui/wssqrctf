@@ -1,0 +1,15 @@
+category: Willywonker VM
+
+description: Obtain the flag in Willywonker VM and embed it in the flax syntex.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{m@trix}
+
+
+tags:
+  - Willywonker VM
+
+state: visible
