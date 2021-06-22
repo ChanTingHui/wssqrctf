@@ -1,0 +1,30 @@
+name: "Secure Browser"
+author: "Ting Hui"
+category: Web
+
+description: |
+  Secure Browser but is it really secure.
+
+  http://:30281
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{th1$_mU$t_b3_c0nfUs1ng}
+
+
+tags:
+  - web
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30281
