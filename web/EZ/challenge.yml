@@ -1,0 +1,28 @@
+name: "EZ"
+author: "Ting Hui"
+category: Web
+
+description: |
+  "Automatically operated machine that replaces human effort, though it may not resemble human beings in appearance or perform functions in a humanlike manner."
+
+value: 100
+type: standard
+
+
+flags:
+  - wssqrctf{r0b0T_F0r_th3_w1n}
+
+tags:
+  - web
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30231
