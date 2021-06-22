@@ -2,7 +2,7 @@
 
 This directory consists of challenges related to `Silly Willy VM`.
 
-Author: Xiaozhi and Ting Hui
+Author: Joe and Xiaozhi
 
 ## Silly Willy VM writeup 
 Orcus walkthrough
