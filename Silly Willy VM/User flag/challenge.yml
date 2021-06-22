@@ -1,1 +1,15 @@
+category: Silly Willy VM
 
+description: Obtain the user flag in Silly Willy VM and embed it in the flax syntex.
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{868c889965b7ada547fae81f922e45c4}
+
+
+tags:
+  - Silly Willy VM
+
+state: visible
