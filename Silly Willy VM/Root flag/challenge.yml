@@ -1,1 +1,15 @@
+category: Silly Willy VM
 
+description: Obtain the root flag in Silly Willy VM and embed it in the flax syntex.
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{807307b49314f822985d0410de7d8bfe}
+
+
+tags:
+  - Silly Willy VM
+
+state: visible
