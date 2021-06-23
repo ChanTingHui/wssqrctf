@@ -1,1 +1,16 @@
+  
+name: "Why is torrent even legal?"
+author: "Xiao Zhi"
+category: forensics
 
+description: This flag can only be given to my favorite and devoted fan boys <3. Will you be able to read it for me ?
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{e4be9e4db876e3e3179778b03e906297be5c8dbe}
+tags:
+  - foreniscs
+
+state: visible
