@@ -9,8 +9,7 @@ Wireshark filtering
 
 ## Sources
 
-- [Lost.pcap](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Bacon%20Rule/bin/Lost.pcap)
-- [crispy.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Bacon%20Rule/bin/crispy.txt)
+- [GoddamTorrent.pcap](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Why%20is%20torrent%20even%20legal%3F/bin/GoddamTorrent.pcap)
 
 ```
 Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client on 10.0.0.201?
