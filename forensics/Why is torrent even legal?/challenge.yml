@@ -3,7 +3,8 @@ name: "Why is torrent even legal?"
 author: "Xiao Zhi"
 category: forensics
 
-description: This flag can only be given to my favorite and devoted fan boys <3. Will you be able to read it for me ?
+description: Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client on 10.0.0.201?
+Embed the SHA1 hash in wssqrctf{x} where x is the hash}
 
 value: 350
 type: standard
