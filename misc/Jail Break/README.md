@@ -18,7 +18,12 @@ Someone is in jail. Break him out of Jail.
 ```
 
 ## Exploit
-This is a classic jail challenge where some builtins have been blocked, such as import, exec, file, quit, execfile, etc. We can tell the program is running on python2 as when doing a 'print 1+1' without '()' it provides an output. We can find out that 'print dir()' is allowed abnd with that we can do a 'print dir(__builtins__)' to see the allowed functions. From that, we can see that __dict__ is allowed. So we can make use of __class__ to find the class, __base__ to find the baseclasses and __subclasses__ to show all classess. with that we executed the commands below.
+This is a classic jail challenge where some builtins have been blocked, such as import, exec, file, quit, execfile, etc. We can tell the program is running on python2 as when doing a 'print 1+1' without '()' it provides an output. We can find out that 'print dir()' is allowed abnd with that we can do a 
+```python
+print dir(__builtins__)
+```
+
+to see the allowed functions. From that, we can see that __dict__ is allowed. So we can make use of __class__ to find the class, __base__ to find the baseclasses and __subclasses__ to show all classess. with that we executed the commands below.
 ```python
 print dict.__class__.__base__.__subclasses__()
 ```
