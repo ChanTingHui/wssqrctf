@@ -18,7 +18,7 @@ Someone is in jail. Break him out of Jail.
 ```
 
 ## Exploit
-This is a classic jail challenge where some builtins have been blocked, such as import, exec, file, quit, execfile, etc. We can tell the program is running on python2 as when doing a 'print 1+1' without '()' it provides an output. We can find out that 'print dir()' is allowed abnd with that we can do a 
+This is a classic jail challenge where some builtins have been blocked, such as import, exec, file, quit, execfile, etc. We can tell the program is running on python2 as when doing a 'print 1+1' without '()' it provides an output. We can find out that 'print dir()' is allowed and with that we can do a 
 ```python
 print dir(__builtins__)
 ```
@@ -28,7 +28,7 @@ to see the allowed functions. From that, we can see that __dict__ is allowed. So
 print dict.__class__.__base__.__subclasses__()
 ```
 </br>
-The execution provided an output of numerous types in an array and most importantly, it provided <type 'file'>. Hence, with that we can try print the flag by using the read function.
+The execution provided an output of numerous types in an array and most importantly, it provided the type file. Hence, with that we can try print the flag by using the read function.
 
 ```python
 print ().__class__.__base__.__subclasses__()[40]('flag.txt', 'r').read()
