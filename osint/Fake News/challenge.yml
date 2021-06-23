@@ -1,1 +1,18 @@
+name: "Fake News"
+author: "Xiaozhi"
+category: OSINT
 
+description: Oh No! I'm standing in front of this Verizon central office building but I think I'm lost. I'm trying to connect to the wifi but I don't know the password to the networks. 
+Whats the CLLI code of the building I am at ? Once you figure out the CLLI code, make sure to wrap it in wssqrCTF{}.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{37}
+
+
+tags:
+  - osint
+
+state: visible
