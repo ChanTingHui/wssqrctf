@@ -27,5 +27,5 @@ Doing write up ltr.
 The flag is:
 
 ```
-wssqrctf{}
+wssqrctf{e4be9e4db876e3e3179778b03e906297be5c8dbe}
 ```
