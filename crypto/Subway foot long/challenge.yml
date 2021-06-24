@@ -1,1 +1,17 @@
+name: "Subway foot long"
+author: "Xiaozhi"
+category: Crypto
 
+description: A treasure have been washed up on the shore. Discover it's secret.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{eatfreshatmcdonlads}
+
+
+tags:
+  - Crypto
+
+state: visible
