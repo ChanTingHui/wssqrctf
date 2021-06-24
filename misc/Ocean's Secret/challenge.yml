@@ -1,0 +1,17 @@
+name: "Ocean's Secret"
+author: "Xiaozhi"
+category: Crypto
+
+description: A treasure have been washed up on the shore. Discover it's secret.
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{e3_pa55w0rd_h3re}
+
+
+tags:
+  - Crypto
+
+state: visible
