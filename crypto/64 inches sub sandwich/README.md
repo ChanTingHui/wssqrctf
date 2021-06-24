@@ -46,6 +46,7 @@ Looks like we need to decrypt the binary above to receive a key, by using a bina
 To confirm which is the correct key of the three given, use a online character counter to check if there is 26 character in the key given. The substitution cipher requires 26 characters in the cipher key as it replaces each alphabet with another alphabet in the cipher. Since there are 26 alphabet in the world, this is correct key for this cipher would be the first one. 
 
 Using a substitution cipher decoder online, replace the cipher key with the following: vwodrqulcnismxybpthgejzkaf
+<br>
 The flag will be decoded as the following:
 
 ![image](https://user-images.githubusercontent.com/69874238/123252796-40a21a80-d51f-11eb-9008-f0271ed17d12.png)
