@@ -26,6 +26,7 @@ There are 2 key information is given in the title for this question which is 64 
 
 In the file given, there is a hint given that the encrypted text below given is a likely cipher key for the encrypted text above. Since we are not given a key for the substitution cipher, we will have to decrypt 3 key below using a base 64 decoder which will result in a binary given for all 3: 
 <br>
+<br>
 Key 1:
 ```
 01110110 01110111 01101111 01100100 01110010 01110001 01110101 01101100 01100011 01101110 01101001 01110011 01101101
