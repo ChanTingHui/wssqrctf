@@ -2,8 +2,7 @@
 Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
-
-Github 
+- Substitution cipher understanding
 
 ## Requirements
 - Binary converter
