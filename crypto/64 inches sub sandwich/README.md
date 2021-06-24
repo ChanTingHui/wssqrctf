@@ -14,7 +14,7 @@ Github
 
 ## Sources
 
-- [cipher.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Emperor's%20Cipher/bin/cipher.txt)
+- [subwayformula.txt](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/64%20inches%20sub%20sandwich/bin/subwayformula.txt)
 
 ```
 Subway have just came up with a new sandwich but we heard a rival fast food chain is trying to compete with them. Can you figure which one it is?
