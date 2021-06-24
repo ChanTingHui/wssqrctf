@@ -1,6 +1,6 @@
 name: "Ocean's Secret"
 author: "Xiaozhi"
-category: Crypto
+category: Misc
 
 description: A treasure have been washed up on the shore. Discover it's secret.
 
@@ -12,6 +12,6 @@ flags:
 
 
 tags:
-  - Crypto
+  - Misc
 
 state: visible
