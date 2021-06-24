@@ -1,1 +1,20 @@
+name: "64 inches sub sandwich"
+author: "Xiaozhi"
+category: Crypto
+
+description: An ancient emperor have passed down an ancient flag after his death. The flag is a6645q7t{ce8_jvoff_127_3ijj}.
+Help us decrypt this code!
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{eatfreshatmcdonlads}
+  
+
+
+tags:
+  - Crypto
+
+state: visible
 
