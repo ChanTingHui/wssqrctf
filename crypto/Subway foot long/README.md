@@ -6,8 +6,8 @@ Author: [Xiaozhi](https://github.com/xiaoxiao69)
 Github 
 
 ## Requirements
-- Github
-- Caesar cipher
+- Binary Converter
+- Substitution cipher
 - Search engine
 
 
@@ -21,15 +21,13 @@ I heard a rival fast food chain is trying to compete with subway. Can you find o
 
 ## Exploit
 
-You need to identify the decryption cipher first. A hint was given in cipher.txt . By entering the hint into google or any search engine, candidates will be able to identify 
-this quote mentioned by Julius Caesar. By searching up Julius Ceasar cipher , candidates will be able to identify the code is encoded in the caesar cipher.
+You need to identify the decryption key first. There are two types of variable given in the txt file. The easier file to decrypt would be the binary which when decrypted using a binary to text converter will give the following cipher key: vwodrqulcnfsmxybpthgejzkai. The question title have given a hint on what cipher is used to get the flag. By searching up sub cipher in google, it will show a substitution cipher.
 
-Candidates are then required to decrpyt the code using cryptii or any online Caesar cipher decoder using shift 14 and change the decoding regex 
-to abcdefghijklmnopqrstuvwxyz0123456789.
-
+The way substitution cipher works is replacing all the alphabet with another alphabet using a cipher key. In this case, the plain text string 
+abcdefghijklmnopqrstuvwxyz us now replaced with vwodrqulcnfsmxybpthgejzkai. By using an online substitution cipher tool and specifying the cipher key, candidates can obtain the flag for this question.
 
 The flag is:
 
 ```
-wssqrctf{y0u_5ha11_not_p455}
+wssqrctf{subwaysnmcdonlads}
 ```
