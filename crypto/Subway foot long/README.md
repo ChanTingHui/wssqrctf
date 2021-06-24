@@ -1,4 +1,4 @@
-# Emperor's Cipher
+# Sub 64 inches sandwich
 Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
