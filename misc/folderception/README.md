@@ -52,10 +52,12 @@ After unzipping, "flagfolder" will be extracted from the picture and by entering
 ```
 strings cresent5star.jpg 
 ```
+![image](https://user-images.githubusercontent.com/69874238/123493951-c376c280-d650-11eb-85f1-e26c2435834c.png)
+
 <br>
 <br>
 It will then print out the flag at the bottom out the output.
-![image](https://user-images.githubusercontent.com/69874238/123493829-506d4c00-d650-11eb-9e2c-fc050e85c8ed.png)
+
 
 
 The flag is:
