@@ -18,7 +18,7 @@ Basic audio forenics
 
 
 ```
-Pingu's friend have seemed to send a message in his home directory. Can you find the flag?
+Pingu's friend have seemed to send a message in his home directory. Can you find the flag? Embed the message in the flag syntex.
 ```
 
 
