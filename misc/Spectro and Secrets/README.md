@@ -45,7 +45,7 @@ Using the 7z package command, we are able to unzip and enter the password of the
 7z x Jammingmusic.zip
 ```
 
-It will show that it contain a hint file and .wav file which is an audio file. The hint states that there is a hidden message in the audio given. When listening to the audio, it play a frequency that does not describe anything. Since the question title has hined at using spectro, searching up spectro audio into google gives a wikipedia result of spectrogram. Using sonic visualizer and adding the spectrogram using the pane tab, it will show message in the audio.
+It will show that it contain a hint file and .wav file which is an audio file. The hint states that there is a hidden message in the audio given. When listening to the audio, it play a frequency that does not describe anything. The hint also gave a clue about voice print and the question stated " spectro" which can help identify what tools to use to get the flag. Searching up voiceprint into google gives a wikipedia result of voiceprint which is related to spectrogram which is used to analyse spoken words. Using sonic visualizer and adding the spectrogram using the pane tab, it will show message in the audio.
 
 ![image](https://user-images.githubusercontent.com/69874238/123476644-9534bb00-d62f-11eb-9c13-0ebfd11e0af5.png)
 
