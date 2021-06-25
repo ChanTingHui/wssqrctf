@@ -2,7 +2,7 @@ name: "Spectro and Secrets"
 author: "Xiaozhi"
 category: Misc
 
-description: Pingu's friend have seemed to send a message in his home directory. Can you find the flag?
+description: Pingu's friend have seemed to send a message in his home directory. Can you find the flag? Embed the message in the flag syntex.
 
 value: 500
 type: standard
