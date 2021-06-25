@@ -14,7 +14,7 @@ Basic audio forenics
 
 ## Sources
 
-- [Pingu.zip](https://github.com/ChanTingHui/wssqrctf/tree/main/misc/Spectro%20and%20Secrets/bin)
+- [Pingu.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/misc/Spectro%20and%20Secrets/bin/Pingu.zip)
 
 
 ```
