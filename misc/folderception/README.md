@@ -14,7 +14,7 @@ John the Ripper and Kali commands knowledge
 
 ## Sources
 
-- [strong_password.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Ocean's%20Secret/bin/strong_password.zip)
+- [strongpass.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/misc/folderception/bin/strongpass.zip)
 
 
 ```
@@ -27,12 +27,12 @@ A file in a file. Wait what is going on?
 Candidates are required to use John the Ripper to unlock the password encrypted zip file. Firstly, candidates are required to extract the hash of the file using the following
 command. <br/>
 ```
-zip2john strong_password.zip > strong_password_hash
+zip2john strongpass.zip > strongpass_hash
 ```
 
 To crack the hash: <br />
 ```
-john strong_password_hash --wordlist=rockyou.txt
+john strongpass_hash --wordlist=rockyou.txt
 ```
 
 The result will show the password to the encrypted file is spongebob.
