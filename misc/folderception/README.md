@@ -10,6 +10,7 @@ John the Ripper and Kali commands knowledge
 - John the Ripper
 - rockyou.txt
 - Kali command line
+- Hex editor
 
 ## Sources
 
