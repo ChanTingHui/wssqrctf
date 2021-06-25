@@ -14,7 +14,7 @@ Basic audio forenics
 
 ## Sources
 
-- [strong_password.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Ocean's%20Secret/bin/strong_password.zip)
+- [Pingu.zip](https://github.com/ChanTingHui/wssqrctf/blob/main/crypto/Ocean's%20Secret/bin/strong_password.zip)
 
 
 ```
