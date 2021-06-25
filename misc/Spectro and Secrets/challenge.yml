@@ -1,1 +1,17 @@
+name: "Spectro and Secrets"
+author: "Xiaozhi"
+category: Misc
 
+description: A treasure have been washed up on the shore. Discover it's secret.
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{L@ve_th1s_s1nger}
+
+
+tags:
+  - Misc
+
+state: visible
