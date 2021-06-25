@@ -18,7 +18,7 @@ John the Ripper and Kali commands knowledge
 
 
 ```
-A treasure have been washed up on the shore. Discover it's secret.
+A file in a file. Wait what is going on?
 ```
 
 
@@ -37,12 +37,7 @@ john strong_password_hash --wordlist=rockyou.txt
 
 The result will show the password to the encrypted file is spongebob.
 
-After entering the spongebob into password of Garry's pet food.txt, candidates will be greeted with an google drive link leading to an image of Garry the snail. 
-Candidates are required analyze the file using a cat command or strings and they will be able to find a string written in the file containing the following: 
-Garry's flag ( 64 decode : d3NzcXJjdGZ7ZTNfcGE1NXcwcmRfaDNyZX0=).
-
-Using an online base 64 decoder, candidates will be able to obtain the flag as wssqr{e3_pa55w0rd_h3re}.
-<br />
+After entering the spongebob into the file. Candidates will be greeted with a image . To find if there is a file hidden in the image, use an online hex editor can check the last few hexes of the file. When analysing, it is shown there is a folder named flagfolder contain an image named "cresent5star.jpg" in this image. To extract the image, simply use the unzip command on the image. 
 
 
 The flag is:
