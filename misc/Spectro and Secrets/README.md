@@ -10,6 +10,7 @@ Basic audio forenics
 - Sonix Visualizer
 - 7 zip package
 - Kali command line
+- Search engine
 
 ## Sources
 
@@ -27,14 +28,16 @@ Candidates are given a zip file that contains part of a Linux home directory. Af
 ```
 ls -la
 ```
-This will show that file .config was a hidden directory. By using entering the .config, there is a png given which gives a possible hint to a password in Music. The picture state the following:
+This will show that file .config was a hidden directory. By using entering the .config directory, there is a png given which gives a possible hint to a password in Music. The picture state the following:
 
 ![image](https://user-images.githubusercontent.com/69874238/123474018-f22e7200-d62b-11eb-8048-180cffa97da5.png)
 
-This could be refering the text files in the Documents directory. By using the following command , we can filter out the file that contained "3dvcmQ" in part of the line:
+This could be refering the text files in the Documents directory. By using the following command in the Document directory , we can filter out the file that contained "3dvcmQ" in part of the line:
 ```
 head * | grep -r 3dvcmQ
 ```
+![image](https://user-images.githubusercontent.com/69874238/123477561-cd88c900-d630-11eb-9bb9-0b7b389bd6a7.png)
+
 This will file show that file 21 contains the following string : "UGFzc3dvcmQzNCQ3czI=". Since it was hinted that it is encrypted , using an online cipher identifier , we can learn that the string was base 64 encoded. By decoding it, we will receive the following password: "Password34$7s2"
 
 Using the 7z package command, we are able to unzip and enter the password of the file "Jammingmusic.zip".
