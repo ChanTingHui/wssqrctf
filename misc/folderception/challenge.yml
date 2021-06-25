@@ -1,1 +1,17 @@
+name: "folderception"
+author: "Xiaozhi"
+category: Misc
 
+description: A file in a file. Wait what is going on?
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{L@ve_th1s_s1nger}
+
+
+tags:
+  - Misc
+
+state: visible
