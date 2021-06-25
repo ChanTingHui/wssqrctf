@@ -1,4 +1,4 @@
-# Graphs and Secrets
+# Spectro and Secrets
 Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
@@ -23,7 +23,7 @@ Pingu's friend have seemed to send a message in his home directory. Can you find
 
 ## Exploit
 
-Candidates are given a zip file that contains part of a Linux home directory. After unzipping the file in kali , user can explore the file directories and files contained in the file. There are 30 text file in documents , 0 files in downloads, two html pages in Desktop , 4 image file in Pictures and a password protected zip file in Music. Candidates are first required to scan for any hidden files downloaded by using following command:
+Candidates are given a zip file that contains part of a Linux home directory. After unzipping the file in kali , user can explore the file directories and files contained in the file. There are 25 text file in documents , 0 files in downloads, two html pages in Desktop , 4 image file in Pictures and a password protected zip file in Music. Candidates are first required to scan for any hidden files downloaded by using following command:
 ```
 ls -la
 ```
@@ -37,7 +37,17 @@ head * | grep -r 3dvcmQ
 ```
 This will file show that file 21 contains the following string : "UGFzc3dvcmQzNCQ3czI=". Since it was hinted that it is encrypted , using an online cipher identifier , we can learn that the string was base 64 encoded. By decoding it, we will receive the following password: "Password34$7s2"
 
-Using the 7z package, we are able to unzip and enter the password of the file "Jammingmusic.zip" and it will show that it contain a hint file and .wav file which is an audio file. The hint states that there is a hidden message in the audio given. When listening to the audio, it play a frequency that does not describe anything. Since the question title has hined at using spectro, searching up spectro audio into google gives a wikipedia result of spectrogram. Using sonic visualizer and adding the spectrogram using the pane tab, it will show message in the audio. Embed the message in the flag syntex.
+Using the 7z package command, we are able to unzip and enter the password of the file "Jammingmusic.zip".
+```
+7z x Jammingmusic.zip
+```
+
+It will show that it contain a hint file and .wav file which is an audio file. The hint states that there is a hidden message in the audio given. When listening to the audio, it play a frequency that does not describe anything. Since the question title has hined at using spectro, searching up spectro audio into google gives a wikipedia result of spectrogram. Using sonic visualizer and adding the spectrogram using the pane tab, it will show message in the audio.
+
+![image](https://user-images.githubusercontent.com/69874238/123476644-9534bb00-d62f-11eb-9c13-0ebfd11e0af5.png)
+
+
+Embed the message in the flag syntex.
 
 
 The flag is:
