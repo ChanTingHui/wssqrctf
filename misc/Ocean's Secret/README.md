@@ -3,11 +3,10 @@ Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
 
-Github , John the Ripper and Kali knowledge
+John the Ripper and Kali commands knowledge
 
 ## Requirements 
 
-- Github
 - John the Ripper
 - rockyou.txt
 - Kali command line
