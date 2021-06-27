@@ -12,8 +12,9 @@ Wireshark filtering
 - [GoddamTorrent.pcap](https://github.com/ChanTingHui/wssqrctf/blob/main/forensics/Why%20is%20torrent%20even%20legal%3F/bin/GoddamTorrent.pcap)
 
 ```
-Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client on 10.0.0.201?
-Embed the SHA1 hash in wssqrctf{x} where x is the hash}
+Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client and the name of the torrent file?
+
+Embed the SHA1 hash in wssqrctf{x_m} where x is the hash and m is the name of the torrent file. Example, minions.avi.mp3 , m= minion
 ```
 
 ## Exploit
@@ -27,9 +28,18 @@ http.request.uri contains .torrent
 This will show packet 4264 . By following the tcp stream of the packet, it will show that the torrent file downloaded was named Betty_Boop_Rhythm_on_the_Reservation.avi.torrent and was sent by the host named publicdomaintorrents.com. 
 ![image](https://user-images.githubusercontent.com/69874238/123537806-f6f64180-d763-11eb-9263-2ec89c6d9bec.png)
 
-The above information showed us the host 
+To find the seeded hash, we can use the information in the wiki. To filter the hash , we can use the following filter :
+
+http.request.uri contains announce
+
+We can view the info hash of the torrent client by following the tcp stream of packet 4312 , we can view the info hash of the seeded file in torrent file as well as the other torrent client. 
+
+![image](https://user-images.githubusercontent.com/69874238/123539326-c5817400-d76b-11eb-9a3f-7e9d9cc3dd81.png)
+
+By removing the % sign in the middle of the hash , we can get the sha1 hash value of the seeded file.
+
 The flag is:
 
 ```
-wssqrctf{e4be9e4db876e3e3179778b03e906297be5c8dbe}
+wssqrctf{e4be9e4db876e3e3179778b03e906297be5c8dbe_Betty_Boop_Rhythm_on_the_Reservation}
 ```
