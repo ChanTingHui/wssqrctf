@@ -3,8 +3,8 @@ name: "Why is torrent even legal?"
 author: "Xiao Zhi"
 category: forensics
 
-description: Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client on 10.0.0.201?
-Embed the SHA1 hash in wssqrctf{x} where x is the hash}
+description: Our employee received alerts on bittorrent traffic from 10.0.0.201 on our network. Help us identify the file being seeded (shared) by the torrent client and the name of the torrent file?
+Embed the SHA1 hash in wssqrctf{x_m} where x is the hash and m is the name of the torrent file. Example, minions.avi.mp3 , m= minion
 
 value: 350
 type: standard
