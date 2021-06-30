@@ -49,7 +49,7 @@ For example,
 '0x123' === '0x845' is false
 ```
 Better understanding at:
-https://git.linuxtrack.net/Azgarech/PayloadsAllTheThings/blob/master/PHP%20juggling%20type/README.md1'
+https://git.linuxtrack.net/Azgarech/PayloadsAllTheThings/blob/master/PHP%20juggling%20type/README.md1
 
 Hence, the hash `10932435112` starts with `0e....`, which means any hashes that starts with `0e` will match with the hash. By doing a semi brute force u will be able to find numerous matches of hashes which starts with `0e`.
 
