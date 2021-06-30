@@ -20,7 +20,7 @@ Submit the flag as a hexadecimal value (starting with '0x').
 ```asm
 	<+0>:	push   ebp
 	<+1>:	mov    ebp,esp
-	<+3>:	cmp    DWORD PTR [ebp+0x8],0x767    ; Compare 0x1f3 to 0x2323
+	<+3>:	cmp    DWORD PTR [ebp+0x8],0x2323    ; Compare 0x1f3 to 0x2323
 	<+10>:	jg     0x512 <asm1+37>              ; Jump not taken (0x1f3 is smaller)
 	<+12>:	cmp    DWORD PTR [ebp+0x8],0x1f3    ; Compare 0x1f3 to 0x1f3
 	<+19>:	jne    0x50a <asm1+29>              ; Jump not taken (they are equal)
