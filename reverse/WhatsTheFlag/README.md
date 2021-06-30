@@ -17,7 +17,6 @@ Understanding of data movement instructions
 ```
 What does assembly(0x1f3) return? 
 Submit the flag as a hexadecimal value (starting with '0x').
-
 ```
 
 ## Exploit
