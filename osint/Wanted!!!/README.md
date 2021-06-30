@@ -15,7 +15,7 @@ Knowledge of basic OSINT online tools
 
 ## Sources
 
-- https://twitter.com/ImElonMask1
+- https://twitter.com/hask_im
 
 
 ```
@@ -38,5 +38,5 @@ After getting the information of departure time, departure date, departure locat
 The flag is:
 
 ```
-wssqrctf{WS-7182}
+wssqrctf{AF-5743}
 ```
