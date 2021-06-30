@@ -8,7 +8,7 @@ Author: [Ting Hui](https://github.com/ChanTingHui)
 
 ## Sources
 
-- [whatstheflag.asm]
+- [whatstheflag.asm](https://github.com/ChanTingHui/wssqrctf/blob/main/reverse/WhatsTheFlag/bin/whatstheflag.asm)
 
 ```
 What does assembly(0x1f3) return? 
