@@ -1,0 +1,27 @@
+name: "What does clowns do?"
+author: "Ting Hui"
+category: Web
+
+description: |
+ find the vulnerability or u gonna waste a lot of time ====, == or =
+
+value: 500
+type: standard
+
+flags:
+  - wssqrctf{typ3_juGGl1ng}
+
+tags:
+  - web
+
+state: visible
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 80
+
+expose:
+- containerPort: 80
+  nodePort: 30272
