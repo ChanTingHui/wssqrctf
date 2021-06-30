@@ -1,0 +1,20 @@
+  
+name: "Whats the Flag?"
+author: "Ting Hui"
+
+category: Reversing
+
+description: |
+  What does assembly(0x1f3) return? 
+  Submit the flag as a hexadecimal value (starting with '0x').
+
+value: 200
+type: standard
+
+flags:
+  - wssqrctf{0x1fe}
+
+tags:
+  - reversing
+
+state: visible
