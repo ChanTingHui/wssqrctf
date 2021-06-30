@@ -9,7 +9,7 @@ value: 200
 type: standard
 
 flags:
-  - wssqrctf{WS-7182}
+  - wssqrctf{AF-5743}
 
 tags:
   - osint
