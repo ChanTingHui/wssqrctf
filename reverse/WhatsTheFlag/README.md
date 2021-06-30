@@ -2,13 +2,9 @@
 
 Author: [Ting Hui](https://github.com/ChanTingHui)
 
-## Description
-
-Understanding of data movement instructions
-
 ## Requirements
 
-- 
+- Understanding of data movement instructions
 
 ## Sources
 
