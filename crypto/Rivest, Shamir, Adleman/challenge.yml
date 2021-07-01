@@ -1,1 +1,19 @@
+name: "Rivest,Shamir,Adleman"
+author: "Xiaozhi"
+category: Crypto
+
+description: My friend Jayden have stolen one of our flags and changed the flag syntex. Recover it for me and change it back !
+
+value: 350
+type: standard
+
+flags:
+  - wssqrctf{d0_y0u_kn0w_the_w@y_2_RS@_56yviuh}
+  
+
+
+tags:
+  - Crypto
+
+state: visible
 
