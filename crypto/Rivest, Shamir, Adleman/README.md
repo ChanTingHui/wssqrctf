@@ -1,4 +1,4 @@
-# Ocean's Secret
+# Rivest, Shamir, Adleman
 Author: [Xiaozhi](https://github.com/ChanTingHui)
 
 ## Description
