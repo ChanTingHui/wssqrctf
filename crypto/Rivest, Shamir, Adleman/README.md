@@ -11,7 +11,7 @@ RSA, Python knowledge and RSA calculations
 
 ## Sources
 
-- [ReallySmartAlgorithm.zip](https://github.com/hbxxlvjqsuhxlreg)
+- [jayden.txt](https://github.com/hbxxlvjqsuhxlreg)
 
 
 ```
@@ -47,17 +47,32 @@ q =
 
 Explanation of codes: <br/>
 
-Candidates are required to find the p and q variable which are the prime factor of N. Candidates can find using factordb which will generate the p and q value of 
-N.
+n= A large Number generation for the algorithm
+e= public key
+c= cipher key 
 
-phi= (p-1) * (q-1) totient of N
+n= p*q (factors of the number generation)
 
-d (private key) = inverse(e, phi)<br/>
-m = message hidden
+totient of n (phi) = (p-1) * (q-1)   (used as part of the formula)
 
+private key(d) = highest common factor(e, phi )
 
+message = pow(c, d , n)  
+
+Example , message = ((cipher key * cipher key * cipher key) % n)) where * is the variable of private key , in this case
+I am stating private key is 3)
 
 <br/>
+
+Factor DB results when showing n:
+
+
+Using an online decoder to decrypter the message behind the numbers,
+![image](https://user-images.githubusercontent.com/69874238/124198875-37f3aa80-db04-11eb-83f0-ee9e672fee42.png)
+
+Convert the flag syntex and enter the following:
+
+
 
 The flag is:
 
