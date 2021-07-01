@@ -21,7 +21,7 @@ RSA, Python knowledge and RSA calculations
 
 ## Exploit
 
-Explanation of codes: <br/>
+Explanation of formula of RSA : <br/>
 
 n= A large Number generation for the algorithm
 e= public key
@@ -72,7 +72,8 @@ q =
 
 
 Using an online decoder to decrypter the message behind the numbers,
-![image](https://user-images.githubusercontent.com/69874238/124198875-37f3aa80-db04-11eb-83f0-ee9e672fee42.png)
+![image](https://user-images.githubusercontent.com/69874238/124200397-d2a1b880-db07-11eb-9d1d-39871b97f529.png)
+
 
 Convert the flag syntex and enter the following:
 
