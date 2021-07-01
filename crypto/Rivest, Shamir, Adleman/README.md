@@ -2,7 +2,7 @@
 Author: [Xiaozhi](https://github.com/ChanTingHui)
 
 ## Description
-RSA, Python knowledge and RSA calculations
+RSA knowledge and RSA calculations
 
 ## Requirements 
 - RSA understanding
