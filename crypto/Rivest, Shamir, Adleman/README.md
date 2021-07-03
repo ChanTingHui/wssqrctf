@@ -75,6 +75,20 @@ Using an online decoder to decrypter the message behind the numbers,
 ![image](https://user-images.githubusercontent.com/69874238/124200397-d2a1b880-db07-11eb-9d1d-39871b97f529.png)
 
 
+Students can use kali and install additional packages to create a python script for an alternate solution. This is can be done using the following method:
+
+sudo apt-get install build-essential python3-dev
+pip install pycryptodomex
+
+
+Created a python file named : rsa.py and craft the following python code :
+![image](https://user-images.githubusercontent.com/69874238/124368888-6acea780-dc98-11eb-9869-9c50f1a14591.png)
+
+The output:
+
+
+
+
 Convert the flag syntex and enter the following:
 
 
