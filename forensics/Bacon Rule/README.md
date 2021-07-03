@@ -6,7 +6,6 @@ Wireshark filtering and Snort rules understanding
 
 ## Requirements
 - Wireshark
-- Snort rules
 
 ## Sources
 
