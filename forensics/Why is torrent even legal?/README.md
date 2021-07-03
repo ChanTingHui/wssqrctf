@@ -30,6 +30,9 @@ This will show packet 4264 . By following the tcp stream of the packet, it will 
 
 To find the seeded hash, we can use the information in the wiki. To filter the hash , we can use the following filter :
 
+![image](https://user-images.githubusercontent.com/69874238/124368608-402f1f80-dc95-11eb-899a-9e60a9ab77ba.png)
+
+
 http.request.uri contains announce
 
 We can view the info hash of the torrent client by following the tcp stream of packet 4312 , we can view the info hash of the seeded file in torrent file as well as the other torrent client. 
