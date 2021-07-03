@@ -3,10 +3,9 @@ Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
 
-Github 
+Ceasar cipher knowledge
 
 ## Requirements
-- Github
 - Caesar cipher
 - Search engine
 
