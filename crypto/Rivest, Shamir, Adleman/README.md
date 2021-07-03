@@ -84,7 +84,13 @@ pip install pycryptodomex
 Created a python file named : rsa.py and craft the following python code :
 ![image](https://user-images.githubusercontent.com/69874238/124368888-6acea780-dc98-11eb-9869-9c50f1a14591.png)
 
+run the code by using:
+
+chmod +x rsa.py
+./rsa.py 
+
 The output:
+![image](https://user-images.githubusercontent.com/69874238/124368949-10821680-dc99-11eb-96ae-de19aed20c6a.png)
 
 
 
