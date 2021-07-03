@@ -3,7 +3,7 @@ Author: [Xiaozhi](https://github.com/xiaoxiao69)
 
 ## Description
 
-Asymetric encryptionknowledge and Anshel Anshel Goldfield key exchange knowledge
+Asymetric encryption knowledge and Anshel Anshel Goldfield key exchange knowledge
 
 ## Requirements
 - Wikipedia
